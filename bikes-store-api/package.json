@@ -4,17 +4,15 @@
   "description": "Bike Store API based on Serverless Framework",
   "author": "Andriy Veremyeyev <averemyeyev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^8.2.2",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-env": "^1.6.0",
     "serverless-bundle": "^4.4.0",
-    "webpack": "^5.49.0"
+    "serverless-pseudo-parameters": "^2.6.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.962.0",
-    "uuid": "^3.3.2"
+    "aws-sdk": "^2.963.0",
+    "uuid": "^8.3.2"
   }
 }
