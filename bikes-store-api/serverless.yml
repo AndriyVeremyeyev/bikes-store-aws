@@ -1,0 +1,19 @@
+service:
+  name: bikes-store-api
+
+plugins:
+  - serverless-bundle
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  memorySize: 256
+  stage: ${opt:stage, 'dev'}
+
+functions:
+  createBike:
+    handler: src/handlers/createBike.handler
+    events:
+      - http:
+          method: POST
+          path: /hello

@@ -1,0 +1,17 @@
+# package directories
+bikes-store-api/node_modules
+bikes-store-auth/node_modules
+bikes-store-ui/node_modules
+bikes-store-api/jspm_packages
+bikes-store-auth/jspm_packages
+bikes-store-ui/jspm_packages
+
+# Serverless directories
+bikes-store-api/.serverless
+bikes-store-auth/.serverless
+bikes-store-ui/.serverless
+
+# Webpack directories
+bikes-store-api/.webpack
+bikes-store-auth/.webpack
+bikes-store-ui/.webpack
