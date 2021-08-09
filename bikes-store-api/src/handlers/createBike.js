@@ -17,8 +17,7 @@ async function createBike(event, context) {
     newArrival,
     details,
     imageUrl,
-  } = event.body;
-
+  } = JSON.parse(event.body);
   const now = new Date();
 
   const bike = {
